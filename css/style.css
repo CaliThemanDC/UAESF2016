@@ -1,0 +1,322 @@
+body {
+	font-family: Source Sans Pro, helvetica, arial;
+	color:white;
+	padding: 0;
+	margin: 0;
+	top: 0;
+}
+nav {
+	
+	margin: 0px auto;
+}
+
+nav#nav {
+
+	width: 900px;
+
+}
+
+div#logo>img{
+	float: left;
+	padding-top: 30px;
+	max-width: 300px;
+	height: 100px;
+}
+div#nav-right {
+	float: right;
+	display: inline;
+	padding-top: 70px;
+}
+
+ul>li {
+	list-style: none;
+	display: inline;
+	font-weight: 100;
+	font-size: .9em;
+	letter-spacing: .2em;
+}
+li>a {
+	color: white;
+	text-decoration: none;
+	padding-right: 25px;
+}
+
+section#Hero {
+	min-height: 680px;
+	background: url(../images/homeBG.png) no-repeat top center;
+	background-color: #263746;
+	background-size: cover;
+
+}
+#Hero>h1 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 300;
+	letter-spacing: .2em;
+
+}
+h1.topTitle {
+	text-align: center;
+	padding-top: 300px;
+}
+
+div#reg-btn {
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+button{
+	border-width: 0;
+	background-color: #EC0B43;
+	margin-top: 100px;
+}
+button>h2 {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: .5em;
+	width: 220px;
+	padding: 0;
+}
+
+div#more-btn {
+	width: 80px;
+	margin: 0 auto;
+}
+div#more-btn>img {
+	height: 25px;
+	padding-top: 50px;
+}
+
+section#About {
+	color: #263746;
+}
+#About>div.container {
+	width: 850px;
+	margin: 0 auto;
+}
+#About>div.container>h2 {
+	margin-top: 100px;
+	font-weight: 300;
+	letter-spacing: .1em;
+}
+
+#About>div.container>p {
+	margin-top: 40px;
+	font-weight: 500;
+	line-height: 2em;
+	font-size: 20px;
+
+}	
+#About>div article {
+	margin-top: 50px;
+	font-weight: 100;
+}
+article#clmSize {
+	width: 45%;
+	line-height: 1.4em;
+	display: inline-block;
+
+}
+article#clmSize.art-rt {
+	margin-left: 30px;
+	margin-bottom: 100px;
+}
+
+section#Goals {
+	background-color: #00c189;
+	overflow: hidden;
+	padding-top: 100px;
+	min-height: 450px;
+	margin-bottom: 0;
+
+}
+
+section#Goals>h2, article#g1{
+	width: 850px;
+	margin: 0 auto;
+	font-weight: 100;
+	
+}
+
+article#g1 {
+	font-size: 20px;
+	letter-spacing: .09em;
+	line-height: 1.8em;
+}
+
+section#Speakers {
+	overflow: hidden;
+	margin-top: 0;
+	border-width: 0;
+	background-color: #263746;
+	background-size: cover;
+}
+
+div#container {
+	max-width: 850px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#Speakers>div#container>h2 {
+	font-weight: 100;
+	letter-spacing: .2em;
+	margin-top: 100px;
+	padding-bottom: 40px;
+
+}
+
+div#imgRow1>img, div#imgRow2>img{
+	width: 23.5%;
+	max-height: 197px;
+	border:none;
+}
+#Speakers>div#container {
+	padding-bottom: 70px;
+}
+
+#Speakers>div#container>h3{
+	max-width: 23.5%;
+	padding:0;
+	margin: 0;
+	}
+
+div#nameRow1 {
+	max-width: 850px;
+}
+
+div#nameRow1>ul, div#nameRow2>ul{
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+div#nameRow1>ul>li>h3, div#nameRow2>ul>li>h3  {
+	display: inline-block;
+	font-weight: 100;
+	font-size: 1em;
+	width: 23.5%;
+}
+
+section#Agenda>div#container>h2 {
+	padding-top: 100px;
+	padding-bottom: 40px;
+	color: #263746;
+	font-weight: 400;
+	letter-spacing: .2em;
+}
+
+section#Agenda>div#container>ul {
+	padding:0;
+}
+section#Agenda>div#container>ul>li {
+	color: #263746;
+	width: 60%;
+	padding-right: 70px;
+	font-weight: 600;
+}
+section#Agenda>div#container>ul>li>p {
+	display: inline;
+	width: 60%;
+
+}
+
+section#Agenda>div#container>table {
+	width: 100%;
+}
+
+
+section#Agenda>div#container>table>tbody>tr>td {
+	color: #263746;
+	font-weight: 300;
+	padding-bottom: 20px;
+	letter-spacing: .09em;
+}
+section#Agenda>div#container>table>tbody>tr>td#time {	
+	font-weight: 500;
+	width: 200px;
+	vertical-align: text-top;
+}
+
+section#Agenda>div#container>h3 {
+	color: #00c189;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: .1em;
+}
+
+section#Venue {
+	background-color: #f7f7f7;
+	width: 100%;
+	min-height: 440px;
+	clear:both;
+}
+
+div#venueAddress {
+	padding-left: 100px;
+	padding-top: 100px;
+	width: 20%;
+	display: inline-block;
+	color: #263746;
+	overflow: none;
+}
+
+div#venueAddress>h2 {
+	padding-bottom: 50px;
+	font-weight: 300;
+	letter-spacing: .2em;
+}
+
+div#venueAddress>h1 {
+	font-weight: 400;
+	letter-spacing: .1em;
+}
+div#venueAddress>address {
+	line-height: 1.6em;
+}
+div#map {
+	display:inline;
+	float: right;
+}
+
+div#map>img {
+	
+	background-color: #898989;
+}
+
+footer#Sponsors {
+	overflow: none;
+	background-color: #ec0b43;
+}
+
+footer#Sponsors>div#container>h2 {
+	padding-top: 100px;
+	font-weight: 400;
+	letter-spacing: .13em;
+}
+
+div#AGSIW>img {
+	float: left;
+	margin-right: 60px;
+	clear: both;
+	display: inline;
+}
+div#AGSIW>p {	
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+	letter-spacing: .04em;
+	
+}
+
+footer#Sponsors>div#container>p {
+	margin-top: 150px;
+}
+
+
+
